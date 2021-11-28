@@ -1,8 +1,8 @@
-*{
-  padding: 0;
+*, body{
+  	padding: 0;
 	margin: 0;
 	border: 0;
-	box-sizing: border-box;
+	box-sizing: border-box;	
 }
 
 body{
@@ -60,3 +60,19 @@ body{
 	background-color: #fac800;
 	cursor: pointer;
 }
+
+@media (max-width: 800px) {
+	.box-input {
+    align-items: center;
+	  flex-direction: column;
+    width: 100%;
+	}
+  .input-url{
+    width: 100%;
+    margin: 10px;
+  }
+  .btn{
+    margin: 10px;
+    width: 100%;
+  }
+  }
